@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import { fadeIn } from "../../../public/assets/variants";
+import { fadeIn } from "@/utils/variants";
 
 const Consulation = () => {
   return (

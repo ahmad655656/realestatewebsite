@@ -1,4 +1,3 @@
-
 export const fadeIn = (
   direction: "up" | "down" | "left" | "right",
   delay: number = 0
@@ -13,7 +12,7 @@ export const fadeIn = (
     x: 0,
     opacity: 1,
     transition: {
-      type: "tween", // بيضل يشتغل، وما رح يوقف build
+      type: "spring", // ✅ بيضل يشتغل
       duration: 1,
       delay,
       ease: [0.25, 0.25, 0.25, 0.75],

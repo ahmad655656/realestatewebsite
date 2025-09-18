@@ -4,7 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules"; // ✅ استيراد الموديولات
 import { motion } from "framer-motion";
-import { fadeIn } from "../../../public/assets/variants";
+import { fadeIn } from "@/utils/variants";
 
 import "swiper/css";
 import "swiper/css/navigation";
