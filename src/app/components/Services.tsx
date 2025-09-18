@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'next/image';
 import Card from "./Card";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../public/assets/variants";

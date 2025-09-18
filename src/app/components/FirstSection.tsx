@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import CountUp, { useCountUp } from "react-countup";
+import CountUp from "react-countup";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaUserFriends } from "react-icons/fa";
 import { MdCloudDone } from "react-icons/md";

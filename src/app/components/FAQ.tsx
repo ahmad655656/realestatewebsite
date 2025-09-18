@@ -34,7 +34,7 @@ const FAQ = () => {
       <div className="flex flex-col mb-8 md:flex-row w-full gap-5 items-center justify-center flex-wrap">
         {faq.map((item, index) => {
           return (
-            <motion.div variants={fadeIn("right", index/10)}
+            <motion.div key={index} variants={fadeIn("right", index/10)}
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.2 }} className="md:w-[45%] w-[95%] flex flex-col gap-4 items-start ">

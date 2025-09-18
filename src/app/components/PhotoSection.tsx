@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules"; // ✅ استيراد الموديولات
+import { Pagination } from "swiper/modules"; // ✅ استيراد الموديولات
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../public/assets/variants";
 

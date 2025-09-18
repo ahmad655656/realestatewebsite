@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
@@ -5,9 +6,9 @@ import { IoIosArrowForward } from "react-icons/io";
 const Card = ({image, title, description}: {image: string, title: string, description: string}) => {
   return (
     <div className="w-full relative bg-white">
-      <img
+      <Image 
         alt=""
-        src={image}
+        src={image} width={500} height={300}
         className="h-64 w-full object-cover sm:h-80 lg:h-96"
       />
 
