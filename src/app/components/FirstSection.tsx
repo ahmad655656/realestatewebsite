@@ -8,7 +8,7 @@ import { FaUserFriends } from "react-icons/fa";
 import { MdCloudDone } from "react-icons/md";
 import { AiFillHourglass } from "react-icons/ai";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/variants";
+import { fadeIn } from "../../../variants";
 
 const arrayNumber = [
   {
