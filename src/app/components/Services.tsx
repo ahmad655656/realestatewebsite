@@ -40,9 +40,11 @@ const Services = () => {
         expert consultation
       </motion.p>
       <div className="w-full flex flex-col md:flex-row items-center gap-3 md:p-10 ">
-      {cards.map((item) => {
+      {cards.map((item, index) => {
         return (
-            <Card image={item.image} description={item.description} title={item.title} />
+            <span key={index}>
+              <Card image={item.image} description={item.description} title={item.title} />
+            </span>
         );
     })}
     </div>
