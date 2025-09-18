@@ -119,7 +119,7 @@ const PhotoSection = () => {
   className="w-full h-[50vh] flex items-center justify-center"
 >
   <h1 className="text-[30px] uppercase text-center font-bold text-white">
-    Let's craft dreams into interiors
+    Lets craft dreams into interiors
   </h1>
 </div>
     </div>

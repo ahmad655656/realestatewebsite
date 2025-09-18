@@ -19,7 +19,7 @@ const Contact = () => {
           </h1>
 
           <p className="mt-3 text-gray-100 text-center dark:text-gray-400">
-            We’d love to hear from you. Please fill out this form or shoot us an
+            Wed love to hear from you. Please fill out this form or shoot us an
             email.
           </p>
         </motion.div>

@@ -10,7 +10,7 @@ const Consulation = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }} id="consulation" className="p-4 second_background py-6 w-[80%] shadow-2xl shadow-[#222] mx-auto rounded-lg main_background flex flex-col items-start dark:bg-gray-800 md:p-8">
             <h1 className='md:text-[30px] text-[20px] text-center mx-auto mb-7 font-medium text-white uppercase '>Free consultation
-Let's discuss your project</h1>
+Lets discuss your project</h1>
             <form className='w-[80%] mx-auto'>
               <div className="-mx-2 md:items-center md:flex">
                 <div className="flex-1 px-2">

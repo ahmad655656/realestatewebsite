@@ -48,8 +48,8 @@ const FirstSection = () => {
         <div className="w-full md:w-[32%] border-l-2 border-l-gray-300   ">
           <div className="w-full h-full p-10">
             <p className="text-[20px] text-white mb-4 font-medium ">
-              I'll help you redefine your space into a reflection of your unique
-              style and personality. Together, let's infuse creativity,
+              Ill help you redefine your space into a reflection of your unique
+              style and personality. Together, lets infuse creativity,
               functionality, and elegance into every corner, crafting spaces
               that inspire and delight. Welcome to a partnership where your
               dream space becomes a shared masterpiece.
@@ -75,7 +75,7 @@ const FirstSection = () => {
       <div className="w-full flex flex-col items-center">
         <div className="w-full px-10 min-h-[100px] border-t-gray-300 border-t-[2px] flex flex-col md:flex-row md:items-center md:justify-between ">
           <h1 className="md:text-[25px] text-[20px] uppercase font-bold text-center p-5 text-white ">
-            Let's craft something extraordinary together.
+            Lets craft something extraordinary together.
           </h1>
           <p className="text-[20px] text-gray-200 mb-4 ">Step inside!</p>
         </div>

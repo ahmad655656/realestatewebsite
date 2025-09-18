@@ -21,7 +21,7 @@ const About = () => {
         </h1>
         <p className="text-[15px] color_link ">Stephanie Smith</p>
         <p className="text-white">
-          Hello, I'm Stephanie Smith, your dedicated real estate partner
+          Hello, Im Stephanie Smith, your dedicated real estate partner
           committed to helping you achieve your property goals. With a profound
           passion for real estate and a commitment to excellence, I offer a
           wealth of knowledge and expertise to every client interaction."
@@ -29,9 +29,9 @@ const About = () => {
         <p className="text-white">
           My personalized approach ensures that each home search or sale is
           meticulously tailored to meet your unique needs and aspirations.
-          Whether you're a first-time buyer, seasoned investor, or seeking to
+          Whether youre a first-time buyer, seasoned investor, or seeking to
           sell your property, rest assured, I prioritize professionalism and
-          integrity to ensure a seamless and rewarding experience. Let's
+          integrity to ensure a seamless and rewarding experience. Lets
           collaborate to navigate the dynamic real estate market and transform
           your property aspirations into successful outcomes.{" "}
         </p>
