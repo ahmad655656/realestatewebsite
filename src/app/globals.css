@@ -27,6 +27,7 @@ html{
 
 body {
   background: var(--background);
+  overflow-x: hidden;
   color: var(--foreground);
   font-family: var(--font-roboto);
 }

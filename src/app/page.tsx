@@ -36,7 +36,7 @@ export default function Home() {
             window.scrollTo(0, 0);
             
           }}
-          className="fixed bottom-5 w-[50px] cursor-pointer h-[50px] right-5 color_link"
+          className="fixed bottom-5 w-[50px] cursor-pointer h-[50px] right-7 md:right-5 color_link"
         />
       ) : (
         <IoIosArrowDropup className="hidden" />

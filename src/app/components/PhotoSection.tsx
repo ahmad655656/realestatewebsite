@@ -32,7 +32,7 @@ const PhotoSection = () => {
     <div className="w-full min-h-[100vh] flex flex-col items-center ">
       <div className="w-full flex md:flex-row flex-col items-center min-h-[50vh] md:h-[30%] ">
         <div className="flex flex-col items-center justify-center bg-[#c4904c] h-[400px] w-full md:w-[50%] ">
-          <h1 className="text-[30px] text-white font-bold uppercase ">
+          <h1 className="text-[30px] text-center text-white font-bold uppercase ">
             Interior design chronicles
           </h1>
           <p className="text-[15px] text-white text-center font-bold uppercase ">
