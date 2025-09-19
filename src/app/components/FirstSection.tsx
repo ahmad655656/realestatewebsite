@@ -77,7 +77,7 @@ const FirstSection = () => {
           <h1 className="md:text-[25px] text-[20px] uppercase font-bold text-center p-5 text-white ">
             Lets craft something extraordinary together.
           </h1>
-          <p className="text-[20px] text-gray-200 mb-4 ">Step inside!</p>
+          <p className="text-[20px] text-center text-gray-200 mb-4 ">Step inside!</p>
         </div>
         <div className="w-full flex flex-col gap-7 items-center md:flex-row md:justify-evenly min-h-[300px] p-4 second_background">
             {arrayNumber.map((item, index) => {

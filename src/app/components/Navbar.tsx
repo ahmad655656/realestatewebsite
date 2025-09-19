@@ -1,5 +1,6 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
+import { MdClose } from "react-icons/md";
 import { Link as ScrollLink } from "react-scroll";
 
 const links = [
@@ -25,6 +26,15 @@ const links = [
   },
 ];
 const Navbar = () => {
+  const[open , setOpen] = useState(false)
+  const handleOpenNav = () => {
+    setOpen(x => !x)
+    console.log(open)
+  }
+  const handleCloseNav = () => {
+    setOpen(x => !x)
+    console.log(open)
+  }
   return (
   <header className="main_background border-b-[2px] sticky top-0 z-10 border-b-gray-300 ">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -82,7 +92,8 @@ const Navbar = () => {
 
         <div className="block md:hidden">
           <button
-            className="rounded-sm bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+          onClick={handleOpenNav}
+            className="rounded-sm cursor-pointer bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +107,26 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
+        {
+          open ? <div className="absolute w-[200px] z-60 second_background h-[300px] top-0 right-0"> 
+<ul className="flex flex-col items-start px-5 py-10 gap-6 text-sm">
+           {links.map((link, index) => {
+            return (
+               <ScrollLink key={index}
+                        to={link.path}
+                        smooth
+                        spy
+                        className="cursor-pointer text-white"
+                        activeClass="text-accent"
+                      >
+                        {link.name}
+                      </ScrollLink>
+            )
+           })}
+          </ul>
+          <MdClose onClick={handleCloseNav} className="translate-y-[-270px] cursor-pointer hover:shadow-2xl w-[30px] h-[30px] shadow-[rgb(226, 166, 0)] transition-all duration-200 ease-in-out translate-x-[160px] text-[25px] text-white" />
+        </div> : null
+        }
       </div>
     </div>
   </div>

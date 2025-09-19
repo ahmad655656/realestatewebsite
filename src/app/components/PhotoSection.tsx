@@ -30,8 +30,8 @@ const comments = [
 const PhotoSection = () => {
   return (
     <div className="w-full min-h-[100vh] flex flex-col items-center ">
-      <div className="w-full flex flex-row items-center h-[30%] ">
-        <div className="flex flex-col items-center justify-center bg-[#c4904c] h-[400px] w-[50%] ">
+      <div className="w-full flex md:flex-row flex-col items-center min-h-[50vh] md:h-[30%] ">
+        <div className="flex flex-col items-center justify-center bg-[#c4904c] h-[400px] w-full md:w-[50%] ">
           <h1 className="text-[30px] text-white font-bold uppercase ">
             Interior design chronicles
           </h1>
@@ -40,7 +40,7 @@ const PhotoSection = () => {
             Designed Corners.
           </p>
         </div>
-        <div className="w-[50%] h-[400px] relative ">
+        <div className="w-full md:w-[50%] h-[400px] relative ">
           <Image
             src={"/assets/img4.jpg"}
             alt="img1"
@@ -49,8 +49,9 @@ const PhotoSection = () => {
           />
         </div>
       </div>
-      <div className="w-full flex flex-row items-center  h-[30%]">
-        <div className="w-[50%] h-[400px] relative ">
+            <div className="w-full flex md:flex-row flex-col items-center min-h-[50vh] md:h-[30%] ">
+
+        <div className="w-full md:w-[50%] h-[400px] relative ">
           <Image
             src={"/assets/img5.jpg"}
             alt="img1"
@@ -58,7 +59,7 @@ const PhotoSection = () => {
             className="object-cover"
           />
         </div>
-        <div className="w-[50%] h-[400px] relative ">
+        <div className="w-full md:w-[50%] h-[400px] relative ">
           <Image
             src={"/assets/img6.jpg"}
             alt="img1"
@@ -67,8 +68,9 @@ const PhotoSection = () => {
           />
         </div>
       </div>
-      <div className="w-full flex flex-row items-center  h-[30%]">
-        <div className="w-[50%] h-[400px] relative ">
+            <div className="w-full md:w-full flex md:flex-row flex-col items-center min-h-[50vh] md:h-[30%] ">
+
+        <div className="w-full md:w-[50%] h-[400px] relative ">
           <Image
             src={"/assets/img7.jpg"}
             alt="img1"
@@ -76,7 +78,7 @@ const PhotoSection = () => {
             className="object-cover"
           />
         </div>
-        <div className="w-[50%] h-[400px] relative ">
+        <div className="w-full md:w-[50%] h-[400px] relative ">
           <Image
             src={"/assets/img8.jpg"}
             alt="img1"
