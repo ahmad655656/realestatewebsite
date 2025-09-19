@@ -39,8 +39,8 @@ const FirstSection = () => {
     className="flex flex-col items-center w-full min-h-[200vh]">
       <div className="w-full items-center flex flex-col md:flex-row ">
         <div className="w-full md:w-[68%] ">
-          <div className="w-full h-full p-10">
-            <h1 className="md:text-[65px] text-[40px] sm:max-md:text-center line-clamp-2 text-white font-black uppercase   ">
+          <div className="w-full md:h-full h-[60%] p-10">
+            <h1 className="md:text-[65px] text-[30px] sm:max-md:text-center line-clamp-2 text-white font-black uppercase   ">
               Interior design by Stephanie Smith
             </h1>
           </div>
